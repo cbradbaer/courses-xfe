@@ -1,0 +1,14 @@
+D:\My Documents\Online Teaching\Courses\Windows and Mobile Application Development\Code\Solution\SourceCodeOnly\HelloWorld\App3\App3\bin\Debug\netstandard2.0\App3.deps.json
+D:\My Documents\Online Teaching\Courses\Windows and Mobile Application Development\Code\Solution\SourceCodeOnly\HelloWorld\App3\App3\bin\Debug\netstandard2.0\App3.dll
+D:\My Documents\Online Teaching\Courses\Windows and Mobile Application Development\Code\Solution\SourceCodeOnly\HelloWorld\App3\App3\bin\Debug\netstandard2.0\ref\App3.dll
+D:\My Documents\Online Teaching\Courses\Windows and Mobile Application Development\Code\Solution\SourceCodeOnly\HelloWorld\App3\App3\bin\Debug\netstandard2.0\App3.pdb
+D:\My Documents\Online Teaching\Courses\Windows and Mobile Application Development\Code\Solution\SourceCodeOnly\HelloWorld\App3\App3\obj\Debug\netstandard2.0\App3.csprojAssemblyReference.cache
+D:\My Documents\Online Teaching\Courses\Windows and Mobile Application Development\Code\Solution\SourceCodeOnly\HelloWorld\App3\App3\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\My Documents\Online Teaching\Courses\Windows and Mobile Application Development\Code\Solution\SourceCodeOnly\HelloWorld\App3\App3\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\My Documents\Online Teaching\Courses\Windows and Mobile Application Development\Code\Solution\SourceCodeOnly\HelloWorld\App3\App3\obj\Debug\netstandard2.0\App3.csproj.CoreCompileInputs.cache
+D:\My Documents\Online Teaching\Courses\Windows and Mobile Application Development\Code\Solution\SourceCodeOnly\HelloWorld\App3\App3\obj\Debug\netstandard2.0\App3.AssemblyInfoInputs.cache
+D:\My Documents\Online Teaching\Courses\Windows and Mobile Application Development\Code\Solution\SourceCodeOnly\HelloWorld\App3\App3\obj\Debug\netstandard2.0\App3.AssemblyInfo.cs
+D:\My Documents\Online Teaching\Courses\Windows and Mobile Application Development\Code\Solution\SourceCodeOnly\HelloWorld\App3\App3\obj\Debug\netstandard2.0\XamlC.stamp
+D:\My Documents\Online Teaching\Courses\Windows and Mobile Application Development\Code\Solution\SourceCodeOnly\HelloWorld\App3\App3\obj\Debug\netstandard2.0\App3.dll
+D:\My Documents\Online Teaching\Courses\Windows and Mobile Application Development\Code\Solution\SourceCodeOnly\HelloWorld\App3\App3\obj\Debug\netstandard2.0\ref\App3.dll
+D:\My Documents\Online Teaching\Courses\Windows and Mobile Application Development\Code\Solution\SourceCodeOnly\HelloWorld\App3\App3\obj\Debug\netstandard2.0\App3.pdb
