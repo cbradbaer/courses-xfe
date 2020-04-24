@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="VinylVault.MainPage"
+             Title="Album Collection"
+             BackgroundColor="Crimson">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label  Margin="10" x:Name="lblCollection" Text="{Binding CollectionName}" HorizontalOptions="Center" FontSize="Medium" TextColor="White"/>
+        <SearchBar 
+                    x:Name="srchBar" 
+                    Margin="5,15,5,5"
+                    Placeholder="Search Name..."
+                    HeightRequest="40"
+                    WidthRequest="250"
+                    HorizontalOptions="CenterAndExpand"
+                    TextChanged="srchBar_TextChanged"/>
+        <ScrollView>
+            <ListView x:Name="listView"  HasUnevenRows="true"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" SeparatorVisibility="None" ItemSelected="OnListItemSelected" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem IsDestructive="true" Text="Delete" Clicked="OnDeleteClicked" CommandParameter="{Binding .}"/>
+                        </ViewCell.ContextActions>
+                            <ContentView>
+                                <Grid  Margin="2"  BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="100" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="75" />
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Grid.Column="0" VerticalOptions="Center">
+                                        <Image WidthRequest="100" Aspect="AspectFit" HorizontalOptions="Start" Source="{Binding Thumb}"/>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                        <Label Text="{Binding Title}" FontSize="Large" TextColor="Black" HorizontalOptions="Center" FontAttributes="Bold"/>
+                                        <Label Text="{Binding Artist}" FontSize="Medium" TextColor="Black" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                    <StackLayout  Grid.Column="2" VerticalOptions="Center">
+                                        <Label Text="{Binding Location}" FontSize="Small" TextColor="Black" HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                </Grid>
+                            </ContentView>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+        <StackLayout Margin="5,5,5,15" Orientation="Horizontal" HorizontalOptions="Center">
+
+            <Button x:Name="btnAdd"
+                    Text="+" 
+                        
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    BorderRadius="25" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Center"
+                    BackgroundColor="White" 
+                    BorderColor="White"
+                    TextColor="Black"
+                    FontSize="24"
+                    FontAttributes="Bold"
+                    Clicked="OnAddClicked"/>
+            
+            
+            <Button x:Name="btnName"
+                    Text="N" 
+                        
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    BorderRadius="25" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Center"
+                    BackgroundColor="White" 
+                    BorderColor="White"
+                    TextColor="Black"
+                    FontSize="24"
+                    FontAttributes="Bold"
+                    Clicked="OnNameClicked"/>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
+
+
+
+
+
