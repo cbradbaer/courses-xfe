@@ -1,0 +1,68 @@
+First - ******Rate My Class, Rate Me, Leave a Review*****
+
+1.  Finding More About Xamarin.Forms
+
+Xamarin Toolbar
+Xamarin Views
+https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/controls/views
+UI Design Ideas/Samples
+https://snppts.dev/
+Xamarin.Forms Examples
+https://github.com/xamarin/xamarin-forms-samples
+Xamarin Podcast
+https://www.xamarinpodcast.com/
+Xamarin Blog
+https://www.planetxamarin.com/preview
+
+
+2. Designing for iOS and Android
+iOS
+	Visual Studio for Mac
+	Visual Studio for Windows with Xamarin Mac Build Agent
+	Deployment
+		iOS Emulator
+		iPhone
+			Setting to Developer Mode
+				https://medium.com/@samjh715/how-to-enable-developer-mode-on-your-iphone-1f98afa04de9
+	What if I don't have a Mac?
+		Virtual Machine??
+		Mac in the Cloud 
+			https://www.c-sharpcorner.com/article/how-to-test-our-xamarin-ios-or-xamarin-forms-app-without-a-mac/
+		Hot Restart
+			https://nicksnettravels.builttoroam.com/ios-dev-no-mac/
+		Microsoft Maui - Coming November 2021
+
+Android Deployment
+	Android Emulator
+		HyperV and Virtualization
+	Android phone in Developer Mode
+		https://www.digitaltrends.com/mobile/how-to-get-developer-options-on-android/
+
+3. Publishing
+iOS
+Joining Apple Developer Program - $99/year
+www.developer.apple.com
+	provisioning profiles
+	certificates
+App Store
+https://docs.microsoft.com/en-us/xamarin/ios/deploy-test/app-distribution/app-store-distribution/publishing-to-the-app-store 
+
+
+Android
+Google Play Store
+https://docs.microsoft.com/en-us/xamarin/android/deploy-test/publishing/publishing-to-google-play 
+
+
+
+4.  More Programming Education
+C# -  Great instructor (bad mic)
+https://www.youtube.com/playlist?list=PLAC325451207E3105 
+
+SQL – Great instructor (much better mic)
+https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB 
+
+******Rate My Class, Rate Me, Leave a Review*****
+
+
+
+
